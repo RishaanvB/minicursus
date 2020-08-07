@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title> Forms | Van Appels tot Zitroenen </title>
+</head>
+
+<body>
+  <form action="/succes" name="contact" method="POST" data-netlify="true">
+
+    <!-- naam/adres gegevens -->
+
+
+    <label>First name</label><br>
+    <input type="text" required name="firstname" /><br>
+
+    <label> Last name</label><br>
+    <input type="text" name="lastname" /><br>
+
+    <label> Email</label><br>
+    <input type="email" name="email" /><br>
+
+    <label> Phone Nr.</label><br>
+    <input type="tel" name="tel" /><br>
+
+    <label> Birthday</label><br>
+    <input type="date" name="date" /><br>
+
+    <!-- radio gender -->
+
+    <input type="radio" name="gender" />
+    <label>Male</label><br>
+
+    <input type="radio" name="gender" />
+    <label>Female</label><br>
+
+    <input type="radio" name="gender" />
+    <label>L</label><br>
+
+    <input type="radio" name="gender" />
+    <label>B</label><br>
+
+    <input type="radio" name="gender" />
+    <label>G</label><br>
+
+    <input type="radio" name="gender" />
+    <label>T</label><br>
+
+    <input type="radio" name="gender" />
+    <label>Q</label><br>
+
+    <input type="radio" name="gender" />
+    <label>Other</label><br>
+
+    <!--checkbox -->
+
+    <label> Favorite Cuisine</label><br>
+
+    <input type="checkbox" name="checkbox" />
+    <label>Frans</label><br>
+
+    <input type="checkbox" name="checkbox" />
+    <label>Arabisch</label><br>
+
+    <input type="checkbox" name="checkbox" />
+    <label>Spaans</label><br>
+
+    <input type="checkbox" name="checkbox" />
+    <label>Italiaans</label><br>
+
+
+
+    <label> Favorite Color</label><br>
+    <input type="color" name="color" /><br>
+
+
+    <!-- misc -->
+
+
+    <label> What's your life like???????</label><br>
+    <textarea rows="3" cols="20" required maxlength="19"
+      placeholder="This is not Twitter! Do it in less than 20 chacracters. :)"></textarea><br>
+
+    <label>Your Latest Recipe</label><br>
+    <input type="file" name="file" /><br><br>
+
+    <label> Your website???</label><br>
+    <input type="url" name="URL" /><br>
+
+    <br>
+
+
+
+    <input type="submit" name="submit" value="Send!!!" /><br><br><br>
+    <input type="reset" name="reset" value="Alle velden Leegmaken" /><br>
+  </form>
+</body>
+
+</html>
