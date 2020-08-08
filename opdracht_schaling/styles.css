@@ -21,14 +21,11 @@
 }
 .site-container{
     height: 100%;
+   
     display: grid;
     
-    width: 80%;
-    grid-gap: 5px ;
     
     
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 40px 40px 40px auto ;
     grid-template-areas: 
     "h h h h h h h h"
     "m m m m m m m m"
