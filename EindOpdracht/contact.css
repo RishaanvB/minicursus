@@ -1,0 +1,14 @@
+.main-container{
+    background-color:rgb(211, 202, 81, 0.473);
+}
+.nav-container{
+    background-color:rgb(211, 202, 81, 0.473);
+}
+.aside-container{
+    background-color:rgb(211, 202, 81, 0.473);
+}
+
+.video{
+    display: block;
+    text-align: center;
+}

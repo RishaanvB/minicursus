@@ -1,0 +1,322 @@
+
+ html, body{
+    /*background-color:rgb(211, 202, 81, 0.473);*/
+   
+    border: solid rgb(212, 47, 47) 2px;
+}
+.site-container{
+    background-color:white;
+    display: grid;
+    grid-template-rows: 1fr auto auto 1fr ;
+    grid-template-columns: 0.03fr 1fr 1fr auto;
+    height: 100%;
+}
+
+.header-container{
+    background-color:rgb(211, 202, 81, 0.473);
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    display: grid;
+    background-image: url("/EindOpdracht/images/bg_egg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 70%;
+    
+   
+}
+/* LOGO*/
+
+
+
+.flex-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  align-items: center;
+ 
+   color: rgb(231, 221, 71);
+   margin-top: 81px;
+   font-size: 2em;
+}
+
+
+
+
+                                            
+.nav-container{
+   
+    grid-column: 1 / 2;
+   
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 124px;
+}
+                                                /* NAVIGATION BAR*/
+.nav-bar{
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.nav-link{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: space;
+    align-items: center;
+    color: rgb(235, 177, 20);
+    text-decoration: none;
+    margin-top:20px;
+} 
+
+.nav-link:hover{
+    color:  rgb(185, 139, 10);
+}
+
+
+.main-container{
+    background-color:white;
+    
+   
+    grid-row: 2 / 4;
+    grid-column: 2 /-1;
+}
+
+                                            /*ASIDE CONTAINER*/
+
+.aside-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.aside{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}            
+.form{
+    text-align: center;
+
+}
+
+
+                                                            /* SHOP MAIN*/
+
+.shop{
+    text-align: center;
+    font-size: 3em;
+    
+    
+}
+
+
+.item-container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    
+}
+
+
+
+.item-block> * img {
+  
+    width: 150px;
+    height: auto;
+}
+
+.item-block> * img:hover{
+    border: rgb(221, 197, 61) solid 2px;
+    border-radius: 4%;
+    
+
+
+}
+
+
+.item-name{
+  
+    color: rgba(247, 184, 26, 0.856);
+    
+    margin-top: -2px;
+    
+}
+
+.item-price{
+   
+  
+    color: rgb(148, 108, 21);
+    
+    margin-top: -18px;
+}
+
+
+
+.collection{
+    text-align: center;
+    padding-right: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+                                                            /* FOOTER */
+.footer-container{
+    background-color:rgb(211, 202, 81, 0.473);
+    grid-row: 4 / -1;
+    grid-column: 1 /-1;
+  
+}
+
+.footer-links{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 0 ;
+    padding: 0 ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 51px;
+    margin-bottom: 44px; 
+    list-style-type: none;   
+    text-decoration: none;
+}
+a.footer-contact-info{
+    text-decoration: none;
+    text-decoration-color: black;
+    color: black;
+    opacity: 70%;
+    padding: 10px;
+    
+}
+.footer-contact-info:hover{
+    text-decoration: underline;
+}
+
+
+.social-logos{                                  /*SOCIAL MEDIA LOGOS*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.fa-twitter {
+    
+    color: white;
+    text-decoration: none;
+}
+
+.fa-facebook {
+   
+    color: white;
+    text-decoration: none;
+}
+
+.fa-instagram {
+  
+    color: white;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 40%;
+}
+
+
+
+                                                /*COPYRIGHT PLUS EXTRA*/
+
+
+.copy-text{
+   text-align: center;
+   opacity: 70%;
+   color: black;
+}
+.footer-sitemap{
+    
+    display: flex;
+    flex: row nowrap;
+    margin: 0 ;
+    padding: 0 ;
+    justify-content: center;
+   align-content: space-around;
+    margin-top: -7px;
+    margin-bottom: 40px; 
+    list-style-type: none;   
+  text-decoration: none;
+}
+a.extra-info{
+    text-decoration: none;
+    text-decoration-color: black;
+    color: black;
+    opacity: 70%;
+}
+.extra-info:hover{
+    text-decoration: underline;
+}
+
+.item-zoom> * img {
+  
+    width: 150px;
+    height: auto;
+}
+
+
+
+
+    
+   
+
+
+@media (min-width: 1000px){
+    .site-container{
+        display: grid;
+        grid-template-rows: 1fr auto auto 1fr ;
+        grid-template-columns: 0.7fr 1fr 1fr 0.5fr;
+        grid-gap: 3px;
+        height: 100%;
+        width: 85%;
+        margin: 0 auto;
+        border-right: rgb(211, 202, 81, 0.473) 20px solid;
+        border-left: rgb(211, 202, 81, 0.473) 20px solid;
+        
+    }
+    
+  
+    .item-block> * img {
+  
+        width: 250px;
+        height: auto;
+    }
+    .nav-container{
+        margin-top: 150px;
+    }
+    .body, html{
+       
+        margin: 0 auto;
+    }
+
+
+}
